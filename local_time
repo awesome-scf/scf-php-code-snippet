@@ -1,0 +1,6 @@
+<?php
+function main_handler($event, $context) {
+    echo date("Y-m-d H:i:s",time()); 
+    return "hello world";
+}
+?> 
